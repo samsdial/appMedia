@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Site démo Webpack Encore</title>
+        {{ encore_entry_link_tags('app') }}
+        {% block stylesheets %}{% endblock %}
+    </head>
+    <body>
+    <header class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-0 bg-white border-bottom shadow-sm">
+        <a class="navbar-brand my-0 me-md-auto fw-normal " href="#">
+            <img src="{{ asset('build/images/logo.png') }}" class="w-75" alt="ACME logo">
+        </a>
+        <nav class="my-2 my-md-0 me-md-3">
+            <a class="p-2 text-dark" href="/">Inicio</a>
+            <a class="p-2 text-dark" href="/about">Acerca de</a>
+        </nav>
+            <a class="btn btn-outline-primary" href="#">Sign up</a>
+    </header>
+        {% block body %}{% endblock %}
+        {{ encore_entry_script_tags('app') }}
+    <footer class="bg-white ">
+        <main class="container pt-4 my-md-5 pt-md-5 border-top">
+            <div class="row">
+                <div class="col-12 col-md">
+                    <img src="{{ asset('build/images/logo.png') }}" alt="logo" class="mb-2" width="100">
+                    <small class="d-block mb-3 text-muted">© 2017-2021</small>
+                </div>
+            </div>
+        </main>
+    </footer>
+        {% block javascripts %}{% endblock %}
+    </body>
+</html>

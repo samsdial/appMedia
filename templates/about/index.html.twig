@@ -1,0 +1,74 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello AboutController!{% endblock %}
+
+{% block body %}
+<div class="w-100 d-block">
+
+<div id="app">
+    <app></app>
+</div>
+<main class="container bg-white my-5">
+    <div class="row">
+        <div class="col-12 col-lg-7">
+            <div class="p-3 mt-5">
+                <h2>Eventos por usuario</h2>
+                <p class="mb-3">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta deleniti mollitia modi quo. Sit, voluptatem necessitatibus aperiam tempora adipisci, praesentium quia molestiae ad neque hic ullam at facilis sint modi?
+                </p>
+                <div class="row">
+                    <div class="col-12">
+                        <table class="table table-success table-striped">
+                            <thead>
+                                <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Fecha de registro</th>
+                                <th scope="col">Fecha de modificacion del registro</th>
+                                <th scope="col">Ip</th>
+                                <th scope="col">User Agent</th>
+                                <th scope="col">Cogido del pais</th>
+                                <th scope="col">Clave del evento</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                </tr>
+                                <tr>
+                                <th scope="row">2</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                </tr>
+                                <tr>
+                                <th scope="row">3</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                </tr>
+                            </tbody>
+                            </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-5 pt-3">
+            <img src="{{ asset('build/images/phone.png') }}" alt="logo" class="w-100">
+        </div>
+    </div>
+<main>
+</div>
+
+{% endblock %}

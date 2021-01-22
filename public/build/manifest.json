@@ -1,0 +1,16 @@
+{
+  "build/app.css": "/build/app.css",
+  "build/app.js": "/build/app.js",
+  "build/runtime.js": "/build/runtime.js",
+  "build/vendors~app.js": "/build/vendors~app.js",
+  "build/images/image-big.png": "/build/images/image-big.png",
+  "build/images/image-big2.png": "/build/images/image-big2.png",
+  "build/images/image-big3.jpg": "/build/images/image-big3.jpg",
+  "build/images/logo.png": "/build/images/logo.png",
+  "build/images/phone.png": "/build/images/phone.png",
+  "build/images/slide_five.jpg": "/build/images/slide_five.jpg",
+  "build/images/slide_four.jpg": "/build/images/slide_four.jpg",
+  "build/images/slide_one.jpg": "/build/images/slide_one.jpg",
+  "build/images/slide_three.jpg": "/build/images/slide_three.jpg",
+  "build/images/slide_two.jpg": "/build/images/slide_two.jpg"
+}
